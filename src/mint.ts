@@ -11,7 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(path.dirname(__filename));
 config();
 
-const nftContract = 'AS1CGg8DfCYT7Vwxb4FzZDhzx8qgokSGUubMWQVXVdQTj5p2L9sJ';
+const nftContract = 'AS1C3Kz17oq14BKUohZedGy3bvgP6TokiV7DrbCF2pt9Nvm58bqn';
 
 const { baseAccount, client } = await getClient();
 
