@@ -7,7 +7,7 @@ import { onlyOwner } from '@massalabs/sc-standards/assembly/contracts/utils/owne
 const uriKey = stringToBytes('BASE_URI');
 
 export const defaultURI = stringToBytes(
-  'https://obvious-nft.s3.eu-west-3.amazonaws.com/Obvious-m',
+  'https://obvious-nft.s3.eu-west-3.amazonaws.com/Obvious-m/',
 );
 
 export function constructor(_: StaticArray<u8>): void {
